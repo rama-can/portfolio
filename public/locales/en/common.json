@@ -1,0 +1,15 @@
+{
+  "minReadTime": "{{ minutes }} min.",
+  "notFoundTitle": "Oops, 404",
+  "notFoundDescription": "No page you're looking for, but below posts may be interest for you.",
+  "metaDescription": "Hi there, I'm Rama Can, a web application developer from Buitenzorg, Indonesia.",
+  "changeLanguage": "Change locale to {{ locale }}",
+  "personalSectionTitle": "Hi, I'm Rama Can",
+  "personalSectionText": "I'm a <0>{{title}}</0>, and contribute to <1>{{title2}}</1>. Feel free to get in touch with me by mailing <2>{{email}}</2>",
+  "personalTextTitle": "Backend Developer",
+  "personalTextTitle2": "Open Source",
+  "personalTextEmail": "hello@ramacan.dev",
+  "blogsSectionTitle": "Blogs",
+  "404Title": "404 - Page not found",
+  "404Description": "No page you're looking for, but below posts may be interest for you."
+}
