@@ -32,7 +32,7 @@ After that, we create a config file called **next-i18next.config.js** in our pro
 module.exports = {
     i18n: {
         defaultLocale: "en",
-        locales: ["en", "tr"],
+        locales: ["en", "id"],
     },
 };
 ```
@@ -127,8 +127,8 @@ module.exports = {
             locale: false,
         },
         {
-            source: "/tr/anasayfa",
-            destination: "/tr",
+            source: "/id/rumah",
+            destination: "/id",
             locale: false,
         },
         {
@@ -137,8 +137,8 @@ module.exports = {
             locale: false,
         },
         {
-            source: "/tr/hakkimizda",
-            destination: "/tr/about",
+            source: "/id/tentang",
+            destination: "/id/tentang",
             locale: false,
         },
     ],
@@ -155,8 +155,8 @@ every object has:
   read [official documentation](https://nextjs.org/docs/api-reference/next.config.js/rewrites). There are good options
   like **has**...
 
-With above config, when user land **/home** or **/tr/anasayfa** URL, NextJS automatically render **/** _(pages/index)_.
-And when user land **/about** or **/tr/hakkimizda** URL, NextJS automatically render **/about** _(/pages/about)_. Also
+With above config, when user land **/home** or **/id/rumah** URL, NextJS automatically render **/** _(pages/index)_.
+And when user land **/about** or **/id/tentang** URL, NextJS automatically render **/about** _(/pages/about)_. Also
 we serve the site content localized by using the URL prefix.
 
 Your website will be support both content and URL localization thanks to above steps.
